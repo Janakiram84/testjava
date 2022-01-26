@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="C:\Users\hp\Desktop\Data\Maven\ICICI\Money-Transfer\target/Money-Transfer.zip">
+    <zipfileset includes="lib/**" dir="C:\Users\hp\Desktop\Data\Maven\ICICI\Money-Transfer\target"/>
+    <zipfileset includes="Money-Transfer.jar" dir="C:\Users\hp\Desktop\Data\Maven\ICICI\Money-Transfer\target"/>
+    <zipfileset includes="readme.txt" dir="C:\Users\hp\Desktop\Data\Maven\ICICI\Money-Transfer"/>
+  </zip>
+</target>
+</project>
